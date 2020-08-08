@@ -92,7 +92,7 @@ const App = () => {
       }
   };
 
-  // Change circle to cros
+  // Change circle to cross
   const changeItem = itemNumber => {
     if (winMsg) {
       return toast(winMsg, {type: "success"});
